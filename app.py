@@ -339,6 +339,7 @@ with overview_tab:
                 results["inventory_df"]
             ),
             use_container_width=True
+            key="inventory_overview"
         )
 
     col3, col4 = st.columns(2)
@@ -402,6 +403,7 @@ with inventory_tab:
             results["inventory_df"]
         ),
         use_container_width=True
+        key="inventory_tab"
     )
 
 # =========================================================
