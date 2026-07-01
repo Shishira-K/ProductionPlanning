@@ -338,7 +338,7 @@ with overview_tab:
             charts.inventory_trend(
                 results["inventory_df"]
             ),
-            use_container_width=True
+            use_container_width=True,
             key="inventory_overview"
         )
 
@@ -402,7 +402,7 @@ with inventory_tab:
         charts.inventory_trend(
             results["inventory_df"]
         ),
-        use_container_width=True
+        use_container_width=True,
         key="inventory_tab"
     )
 
